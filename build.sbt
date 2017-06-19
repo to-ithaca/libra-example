@@ -7,7 +7,7 @@ lazy val commonResolvers = Seq(
 
 lazy val buildSettings = Seq(
   scalaOrganization := "org.typelevel",
-  scalaVersion := "2.12.2",
+  scalaVersion := "2.12.1",
   name := "libra-example",
   version := "0.1.0-SNAPSHOT"
 )
