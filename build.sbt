@@ -14,7 +14,7 @@ lazy val buildSettings = Seq(
 lazy val commonSettings = Seq(
   resolvers ++= commonResolvers,
   libraryDependencies ++= Seq(
-    "com.github.to-ithaca" %% "libra" % "0.2.1-SNAPSHOT",
+    "com.github.to-ithaca" %% "libra" % "0.3.0",
     "org.scalatest" %% "scalatest" % "3.0.4" % "test"
   )
 ) ++ compilerSettings
